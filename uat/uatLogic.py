@@ -45,7 +45,7 @@ class UATLogic:
             descr = i["DESCRIZIONE"]
             uc = i["UC"]
             trivial = i["SS"]
-            if trivial.lower() != "s":
+            if trivial.lower() != "s" and i["ES"].lower() != "n":
                 futures.append(executor.submit(self.generateUATByID, useCase, res, id, descr, uc))
 
         for future in as_completed(futures):
