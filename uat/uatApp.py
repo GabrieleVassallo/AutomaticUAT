@@ -20,7 +20,7 @@ if st.button("Submit"):
         st.subheader("TEST: "+uat["ID"])
         st.subheader("DESCRIZIONE: "+uat["DESCRIZIONE"])
         st.subheader("PRECONDIZIONE: "+uat["PRECONDIZIONE"])
-        if type(uat["ATTORI"] is list):
+        if type(uat["ATTORI"]) is list:
             s = ",".join([str(item) for item in uat["ATTORI"]])
             st.subheader("ATTORI: "+s)
         else:    
