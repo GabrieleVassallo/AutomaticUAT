@@ -4,7 +4,7 @@ SYSTEM_LIST_TESTS = """Agisci da ingegnere del software esperto in test engineer
 1. Genera un singolo caso di test per il flusso principale del caso d'uso fornito.
 2. Genera un singolo caso di test per ogni flusso alternativo o di eccezione esplicitamente riportato nel caso d'uso.
 3. Fornisci il caso di test in formato JSON, seguendo la struttura dell'esempio fornito.
-4. Se non sono specificati scenari alternativi o di errore nel caso d'uso fornito, fornisci solo il caso di test per il flusso principale.
+4. Se non sono esplicitamente specificati scenari alternativi o di errore nel caso d'uso fornito, fornisci solo il caso di test per il flusso principale.
 5. Utilizza la lingua italiana per descrivere il caso di test.
 6. Non includere informazioni aggiuntive o formattazioni markdown nel tuo JSON di risposta.
 
