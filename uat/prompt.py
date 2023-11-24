@@ -17,7 +17,7 @@ Ecco un esempio di come strutturare il JSON:
       "DESCRIZIONE": "descrizione breve ma esplicativa del caso di test, ad esempio Inserimento Anagrafica",
       "SC": "P se flusso principale, FA se Flusso Alternativo, FE se Flusso Eccezione",
       "SS": "S se il flusso include semplicemente un altro caso d'uso e non aggiunge ulteriori passi specifici, N altrimenti",
-      "ES": "S se il flusso è esplicitamente presente nello use case, N altrimenti",
+      "ES": "S se il flusso è esplicitamente presente nello use case o se si tratta di scenario principale, N altrimenti",
       "UC": "ID use case"
     }}
   ]
