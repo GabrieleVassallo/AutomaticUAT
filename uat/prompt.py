@@ -29,7 +29,7 @@ SYSTEM_PRODUCE_UAT = """Ti fornisco un caso d'uso e gli ID dei test di accettazi
 
 ESEMPIO:
 {{
-  "PRECONDIZIONE": "se SC='P' precondizione del caso d'uso, con altrimenti inserisci gli step del flusso principale da eseguire",
+  "PRECONDIZIONE": "se SC='P' precondizione del caso d'uso, altrimenti inserisci gli step del flusso principale da eseguire",
   "ATTORI": "elenco degli attori del caso d'uso",
   "TEST": [
     {{
